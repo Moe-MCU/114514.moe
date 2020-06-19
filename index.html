@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>田所の家</title>
+	<style type="text/css">
+	a {
+		text-decoration: none;
+	}
+	div.main {
+		background-color: rgba(255,255,255,0.6);
+		position: absolute;
+		left: 50%;
+		top: 50%;
+		border: 25px ridge red;
+		width: 38.2%;
+		padding: 6%;
+		transform: translate(-50%,-50%);
+
+	}
+	#A {
+		color: #FFFFFF;
+		width: auto;
+		height: 80px;
+		background-color: #f44336;
+		line-height: 80px;
+		font-weight: bold;
+		font-size: 40px;
+		text-align: center;
+	}
+	#B{
+		color: #FFFFFF;
+		width: 50%;
+		height: auto;
+		background-color: #4caf50;
+		line-height: 80px;
+		font-weight: bold;
+		font-size: 40px;
+		text-align: center;
+	}
+	#C{
+		color: #FFFFFF;
+		width: 50%;
+		height: auto;
+		background-color: #2196f3;
+		line-height: 80px;
+		font-weight: bold;
+		font-size: 40px;
+		text-align: center;
+	}
+	.main .box .buttonBoxdiv .buttonBox {
+		list-style: none;
+		margin: 0;
+		padding: 0;
+	}
+	</style>
+	<script src="/js/mainjs.js"></script>
+</head>
+<body style="overflow: hidden;height: 100%;" background="/library/back2.png" onload="blinkit(self)">
+<div id="md" class="main">
+	<div class="box">
+		<img src="/library/maintitle.svg">
+		</br>
+		</br>
+		</br>
+		<div class="buttonBoxdiv">
+		<ul class="buttonBox">
+			<a href="/game/index.html">
+				<li id="A">小游戏</li>
+			</a>
+			<ul style="list-style: none;margine: 0;padding: 0;display: flex;flex-direction: row;">
+				<li id="B" onClick="blinkstop()">按我停啊啊啊</li>
+				<li id="C" onClick="blinkstopLT()">停一天啊啊啊</li>
+			</ul>
+		</ul>
+		</div>
+		</br>
+		</br>
+		</br>
+		<h2>Twitter @_mculi</h2>
+	</div>
+</div>
+</body>
+</html>
